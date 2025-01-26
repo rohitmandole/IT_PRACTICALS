@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change Background Colors</title>
+</head>
+<body>
+    <h1 align="center">7 Different & Visibly Distinct Background Colors</h1>
+    <form name="frm1">
+        <input type="button" name="btncolor" value="Change Colors" onMouseOver="Red()">
+        <input type="button" name="btmsg" value="Message Display" onClick="msg()">
+    </form>
+
+    <script type="text/javascript">
+        function Red() {
+            document.bgColor = "Red";
+            window.setTimeout(Green, 390);
+        }
+
+        function Green() {
+            document.bgColor = "Green";
+            window.setTimeout(Blue, 390);
+        }
+
+        function Blue() {
+            document.bgColor = "Blue";
+            window.setTimeout(Pink, 390);
+        }
+
+        function Pink() {
+            document.bgColor = "Pink";
+            window.setTimeout(Violet, 390);
+        }
+
+        function Violet() {
+            document.bgColor = "Violet";
+            window.setTimeout(Orange, 390);
+        }
+
+        function Orange() {
+            document.bgColor = "Orange";
+            window.setTimeout(Yellow, 390);
+        }
+
+        function Yellow() {
+            document.bgColor = "Yellow";
+            window.setTimeout(Red, 390);
+        }
+
+        function msg() {
+            window.status = "Display of 7 different colors";
+        }
+    </script>
+</body>
+</html>
