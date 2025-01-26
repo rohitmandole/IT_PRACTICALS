@@ -1,0 +1,55 @@
+Basic css
+
+/* Styling for headings */
+hl {
+    color: maroon;
+}
+
+/* Styling for the body */
+body {
+    background-color: pink;
+}
+
+/* Styling for bold text */
+b {
+    color: green;
+}
+
+/* General style for an element */
+.some-class {
+    background-color: silver;
+    font-size: 20px;
+}
+
+
+---------------------------------------------------------------
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traveler Info</title>
+    <link rel="stylesheet" type="text/css" href="basic.css">
+</head>
+<body>
+    <form action="" method="post">
+        <h1 align="center">Traveler Info</h1>
+        
+        <label><b>Traveler Name:</b></label>
+        <input type="text" name="t1" required><br><br>
+        
+        <label><b>Travelling Date:</b></label>
+        <input type="date" name="d1" required><br><br>
+        
+        <label><b>Telephone No.:</b></label>
+        <input type="number" name="m1" required><br><br>
+        
+        <input type="image" name="submit" src="download.jpg" alt="Submitting Data" height="100" width="100">
+        
+        <p>
+            <a href="page2.html">Click Here For Transport Details</a>
+        </p>
+    </form>
+</body>
+</html>
