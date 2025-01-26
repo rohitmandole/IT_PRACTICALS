@@ -1,0 +1,16 @@
+<?php
+$m = array('English' => 67, 'Hindi' => 78, 'Marathi' => 79, 'Maths' => 89, 'IT' => 92);
+
+$tot = $m['English'] + $m['Hindi'] + $m['Marathi'] + $m['Maths'] + $m['IT'];
+
+echo "<h2>Subject Marks</h2>";
+echo "<br>English: " . $m['English'];
+echo "<br>Hindi: " . $m['Hindi'];
+echo "<br>Marathi: " . $m['Marathi'];
+echo "<br>Maths: " . $m['Maths'];
+echo "<br>IT: " . $m['IT'];
+echo "<br>Total Marks: " . $tot;
+
+$per = ($tot / 5);
+echo "<br>Percentage: " . $per . "%";
+?>
