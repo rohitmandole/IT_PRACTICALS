@@ -1,0 +1,36 @@
+Audio.html
+---------------------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Single Audio with Controls on Web Page</title>
+</head>
+<body>
+    <h1>Use of Audio on Web Page Using HTML5</h1>
+    <audio src="file_example_MP3_5MG.mp3" controls autoplay loop>
+        Your browser does not support the <code>audio</code> element.
+    </audio>
+</body>
+</html>
+================================================================================================
+Audio1.html
+------------------------------------------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio on Web Page</title>
+</head>
+<body>
+    <h1>Use of Audio on Web Page Using HTML5</h1>
+    <audio controls autoplay>
+        <source src="file_example_MP3_5MG.mp3" type="audio/mp3">
+        <source src="file_example_OOG_5MG.ogg" type="audio/ogg">
+        <source src="file_example_WAV_5MG.wav" type="audio/wav">
+        Your browser does not support the <code>audio</code> element.
+    </audio>
+</body>
+</html>
