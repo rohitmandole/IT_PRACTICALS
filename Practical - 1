@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SVKM M. J. College, Jalgaon</title>
+  <meta charset="utf-8">
+  <meta name="author" content="Physical Tags">
+  <style>
+    h1 {
+      border-style: dotted;
+    }
+
+    p {
+      color: red;
+      font-size: 15pt;
+    }
+
+    body {
+      background-color: pink;
+    }
+
+    b {
+      text-decoration: overline;
+    }
+
+    u {
+      text-align: right;
+    }
+  </style>
+</head>
+<body>
+  <h1 align="center">Swami Vivekanand Junior College, M. J. College, Jalgaon</h1>
+  <p>
+    The junior college wing of M. J. Jr. College has been renamed as 'Swami Vivekanand Junior College' on the auspicious occasion of Birth Anniversary of Swami Vivekanand, on 12th January 2016. The motive behind this 'new identity' is to inculcate the principles of Swami Vivekanand among the youth (i.e. patriotism, educational perspectives, scientific devotion, etc).
+  </p>
+  <h2>There are four faculties in the college as given below</h2>
+  <b>Arts</b><br>
+  <i>Commerce</i><br>
+  <u>Science</u><br>
+  <em>MCVC</em><br>
+  <h3>The image of the college building</h3>
+  <img src="building.jpg" alt="College Building" height="100" width="400">
+  <br><br>
+  <a href="page2.html">Second Page</a>
+</body>
+</html>
