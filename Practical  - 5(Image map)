@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client-Side Image Mapping</title>
+</head>
+<body>
+    <h1 align="center">Client-Side Image Mapping</h1>
+    <img src="building.jpg" height="550" width="1000" usemap="#college" alt="College Building">
+    
+    <map name="college">
+        <area shape="circle" coords="321,170,124" alt="College 1" href="college1.html">
+        <area shape="rect" coords="317,292,530,357" alt="College 2" href="college2.html">
+        <area shape="poly" coords="387,44,351,100,425,99" alt="College 3" href="http://www.google.com">
+    </map>
+</body>
+</html>
